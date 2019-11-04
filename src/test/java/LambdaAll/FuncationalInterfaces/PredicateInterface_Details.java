@@ -67,4 +67,7 @@ public class PredicateInterface_Details {
         }
 
     }
+    //Automatic conversion of prmitive to wrapper class(object) its called autoboxing Integer i=10;
+
+    //Integer i =new Integer(10); wrapper object : now int x =i(x always accept primitive type) but we assing wrapper type(object type) ; Object to primitive automatically AutoUnboxing; compiler rensposible for autoboxing and autounboxing
 }
