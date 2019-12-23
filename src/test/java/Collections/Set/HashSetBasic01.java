@@ -38,5 +38,11 @@ public class HashSetBasic01 {
 
         System.out.println(s2);
 
+        //HashSet	                                            TreeSet
+        //Inserted elements are in random order	                Maintains the elements in the sorted order
+        //Can able to store null objects	                    Couldn’t store null objects
+        //Performance is fast	                                Performance is slow
+        //Performance is fast	                                Performance is slow
+
     }
 }

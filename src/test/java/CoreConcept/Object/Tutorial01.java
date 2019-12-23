@@ -1,6 +1,8 @@
 package CoreConcept.Object;
 
 class Emp{
+
+
     {
         System.out.println ("Normal Block" );
     }
@@ -8,6 +10,8 @@ class Emp{
     {
         System.out.println ("Static Block" );
     }
+
+
     Emp(){
         System.out.println ("Inside Cosntructore" );
     }

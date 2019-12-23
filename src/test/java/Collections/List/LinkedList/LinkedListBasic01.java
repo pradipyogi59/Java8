@@ -44,7 +44,13 @@ public class LinkedListBasic01 {
         }
 
         System.out.println(object.element());
+
         //retrive first element.
+
+        //Linked List
+
+        //descendingIterator give you iteratore  in reverse order.
+
 
 
 

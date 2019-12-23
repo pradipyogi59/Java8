@@ -1,7 +1,10 @@
 package LambdaAll.FuncationalInterfaces;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 class Bill{
 
@@ -39,13 +42,15 @@ public class Practice {
             ArrayList<Bill> a1=new ArrayList<>();
             a1.add ( new Bill ( 1,"ABC" ) );
             a1.add ( new Bill ( 2,"Pc Complete" ) );
+            a1.add ( new Bill ( 1,"ABC" ) );
             return a1;
         };
 
         ArrayList<Bill> sbi=sb.get ();
-        System.out.println (sbi.get ( 0 ).SupplierName );
+        System.out.println (sbi);
 
-
+        Set<Bill> aed=sbi.stream ().collect ( Collectors.toSet () );
+        System.out.println (aed );
 
     }
 }

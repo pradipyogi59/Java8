@@ -9,6 +9,16 @@ import java.util.Set;
 
 public class HashMap_Basic01 {
     public static void main(String[] args) {
+        //Collection is a framework that is designed to store the objects and manipulate the design to store the objects.
+        //
+        //Collections are used to perform the following operations:
+        //
+        //Searching
+        //Sorting
+        //Manipulation
+        //Insertion
+        //Deletion
+        //A group of objects is known as collections. All the classes and interfaces for collecting are available in Java utile package.
 
         //HashMap doesn’t allow duplicate keys but allows duplicate values. That means A single key can’t contain more than 1 value but more than 1 key can contain a single value.
         //HashMap allows null key also but only once and multiple null values.
@@ -55,6 +65,15 @@ public class HashMap_Basic01 {
 
 
 
+
+        //Hash Map:
+        //
+        //Unordered and unsorted map.
+        //Hashmap is a good choice when we don’t care about the order.
+        //It allows one null key and multiple null values.
+        //Duplicate keys are not allowed in Map.
+        //
+        //Doesn’t maintain any insertion order and is unsorted.
 
     }
 }

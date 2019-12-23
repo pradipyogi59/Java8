@@ -20,6 +20,13 @@ package CoreConcept.Object.Inheritance;
  *
  *
  */
+
+
+/*
+
+Inheritance is a mechanism by which one object acquires all the properties and behavior of another object of another class. It is used for Code Reusability and Method Overriding. The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also. Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+ */
 public class inheritance {
 
     public static void main(String[] args) {

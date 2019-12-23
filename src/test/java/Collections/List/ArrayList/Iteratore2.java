@@ -25,6 +25,8 @@ public class Iteratore2 {
             if (a==4)
             it.set(400);
 
+
+
             System.out.println(a);
         }
         System.out.println(aList);

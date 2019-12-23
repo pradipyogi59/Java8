@@ -30,6 +30,7 @@ public class Iteratore {
         while (itr.hasNext())
             System.out.print(itr.next() + " ");
 
+
         System.out.println();
 
 
