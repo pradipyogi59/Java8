@@ -12,6 +12,9 @@ public class LinkedListBasic01 {
         //disadvantages like the nodes cannot be accessed directly instead we need to start from the head and follow through the link to reach to a node we wish to access.
         //To store the elements in a linked list we use a doubly linked list which provides a linear data structure and also
 
+
+        //The descendingIterator() method of java.util.LinkedList class is used to return an iterator over the elements in this LinkedList in reverse sequential order.
+
         LinkedList<String> object = new LinkedList<String>();
         object.add("A");
         object.add("B");
@@ -44,6 +47,8 @@ public class LinkedListBasic01 {
         }
 
         System.out.println(object.element());
+
+
 
         //retrive first element.
 

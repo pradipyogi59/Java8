@@ -23,6 +23,13 @@ public class HashMap_Basic01 {
         //HashMap doesn’t allow duplicate keys but allows duplicate values. That means A single key can’t contain more than 1 value but more than 1 key can contain a single value.
         //HashMap allows null key also but only once and multiple null values.
         //This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
+
+        //Class	Description
+        //HashMap	HashMap is the implementation of Map, but it doesn't maintain any order.
+        //LinkedHashMap	LinkedHashMap is the implementation of Map. It inherits HashMap class. It maintains insertion order.
+        //TreeMap	TreeMap is the implementation of Map and SortedMap. It maintains ascending order.
+        //Same as set
+
         HashMap<String, Integer> map
                 = new HashMap<>();
 
@@ -62,6 +69,7 @@ public class HashMap_Basic01 {
             Map.Entry me2 = (Map.Entry) iterator.next();
             System.out.println("Key: "+me2.getKey() + " & Value: " + me2.getValue());
         }
+
 
 
 

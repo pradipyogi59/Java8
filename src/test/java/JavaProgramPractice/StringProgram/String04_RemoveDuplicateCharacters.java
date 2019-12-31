@@ -10,13 +10,16 @@ public class String04_RemoveDuplicateCharacters {
         str = str.toUpperCase();
         char[] charArray = str.toCharArray();
 
-        Set<Character> hs = new HashSet<>();
-        for(Character c : charArray)
-        {
-            hs.add(c);
-        }
+       Set<Character> hs = new HashSet<>();
+     for(Character c : charArray)
+      {
+         hs.add(c);
+      }
 
-        System.out.println(hs);
+      System.out.println(hs);
+
+
+
 
     }
 }

@@ -3,6 +3,7 @@ package Collections.List.ArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
+import java.util.Spliterator;
 
 public class Iteratore {
     public static void main(String[] args) {
@@ -23,6 +24,7 @@ public class Iteratore {
 
         // Iterator
         Iterator itr = list.iterator();
+
 
         System.out.println("Iterator:");
         System.out.println("Forward traversal: ");
